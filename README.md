@@ -1,2 +1,2 @@
-# Nod-Virtual-Assistant-Mod
+# Nod Virtual Assistant Mod
 Stellaris mod
