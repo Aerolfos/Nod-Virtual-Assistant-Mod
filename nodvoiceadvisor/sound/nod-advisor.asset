@@ -1,5 +1,31 @@
 ## NOD ADVISOR
 
+## Non override sounds
+sound = 
+{
+	name = "advisor_notification_enemy_fleet_approaching_03"
+	file = "vo/nod-advisor/advisor_notification_enemy_fleet_approaching_03.wav"
+	volume = 1
+}
+sound = 
+{
+	name = "advisor_notification_enemy_fleet_approaching_04"
+	file = "vo/nod-advisor/advisor_notification_enemy_fleet_approaching_04.wav"
+	volume = 1
+}
+sound = 
+{
+	name = "advisor_notification_debri_analysed_02"
+	file = "vo/nod-advisor/advisor_notification_debri_analysed_02.wav"
+	volume = 1
+}
+sound = 
+{
+	name = "advisor_notification_enemy_fleet_approaching_02"
+	file = "vo/nod-advisor/advisor_notification_enemy_fleet_approaching_02.wav"
+	volume = 1
+}
+
 soundgroup = 
 {
 	name = advisor_nod
@@ -373,10 +399,6 @@ soundgroup =
 		advisor_notification_spaceport_under_attack_02 = "vo/nod-advisor/advisor_notification_spaceport_under_attack_02.wav"
 		advisor_notification_species_modified_02 = "vo/nod-advisor/advisor_notification_species_modified_02.wav"
 		advisor_notification_station_under_attack_02 = "vo/nod-advisor/advisor_notification_station_under_attack_02.wav"
-		advisor_notification_debri_analysed_02 = "vo/nod-advisor/advisor_notification_debri_analysed_02.wav"
-		advisor_notification_enemy_fleet_approaching_02 = "vo/nod-advisor/advisor_notification_enemy_fleet_approaching_02.wav"
-		advisor_notification_enemy_fleet_approaching_03 = "vo/nod-advisor/advisor_notification_enemy_fleet_approaching_03.wav"
-		advisor_notification_enemy_fleet_approaching_04 = "vo/nod-advisor/advisor_notification_enemy_fleet_approaching_04.wav"
 	}
 }	
 	
@@ -535,3 +557,4 @@ category = {
 		nod_advisor_notification_station_under_attack
 	}
 }
+
