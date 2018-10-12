@@ -1,6 +1,18 @@
 ## NOD ADVISOR
 
-## Non override sounds
+## Sounds declared
+sound = 
+{
+	name = "advisor_notification_enemy_fleet_approaching_01"
+	file = "vo/nod-advisor/advisor_notification_enemy_fleet_approaching_01.wav"
+	volume = 1
+}
+sound = 
+{
+	name = "advisor_notification_enemy_fleet_approaching_02"
+	file = "vo/nod-advisor/advisor_notification_enemy_fleet_approaching_02.wav"
+	volume = 1
+}
 sound = 
 {
 	name = "advisor_notification_enemy_fleet_approaching_03"
@@ -19,10 +31,9 @@ sound =
 	file = "vo/nod-advisor/advisor_notification_debri_analysed_02.wav"
 	volume = 1
 }
-sound = 
-{
-	name = "advisor_notification_enemy_fleet_approaching_02"
-	file = "vo/nod-advisor/advisor_notification_enemy_fleet_approaching_02.wav"
+sound = {
+	name = "sounds_of_extinction"
+	file = "event/Behold_My_Children...wav"
 	volume = 1
 }
 
@@ -381,8 +392,9 @@ soundgroup =
 		advisor_notification_spaceport_under_attack = nod_advisor_notification_spaceport_under_attack
 		advisor_notification_species_modified = nod_advisor_notification_species_modified
 		advisor_notification_station_under_attack = nod_advisor_notification_station_under_attack
-		advisor_notification_debri_analysed = nod_advisor_notification_debri_analysed
+		advisor_notification_debris_analysed = nod_advisor_notification_debris_analysed
 		advisor_notification_enemy_fleet_approaching = nod_advisor_notification_enemy_fleet_approaching
+		event_robo = CABAL_event_robo
 		}
 	
 	soundfileoverrides = 
@@ -399,7 +411,6 @@ soundgroup =
 		advisor_notification_spaceport_under_attack_02 = "vo/nod-advisor/advisor_notification_spaceport_under_attack_02.wav"
 		advisor_notification_species_modified_02 = "vo/nod-advisor/advisor_notification_species_modified_02.wav"
 		advisor_notification_station_under_attack_02 = "vo/nod-advisor/advisor_notification_station_under_attack_02.wav"
-		advisor_notification_enemy_fleet_approaching_01 = "vo/nod-advisor/advisor_notification_enemy_fleet_approaching_01.wav"
 	}
 }	
 	
@@ -407,7 +418,7 @@ soundgroup =
 	#### Extra NOD VO Lines
 	
 soundeffect = {
-	name = advisor_notification_enemy_fleet_approaching
+	name = nod_advisor_notification_enemy_fleet_approaching
 	sounds = {
 		sound = advisor_notification_enemy_fleet_approaching_01
 		sound = advisor_notification_enemy_fleet_approaching_02
@@ -419,7 +430,7 @@ soundeffect = {
 	max_audible_behaviour = fail
 }
 soundeffect = {
-	name = advisor_notification_debris_analysed
+	name = nod_advisor_notification_debris_analysed
 	sounds = {
 		sound = advisor_notification_debris_analysed_01
 		sound = advisor_notification_debri_analysed_02
@@ -540,6 +551,19 @@ soundeffect = {
 	max_audible = 1
 	max_audible_behaviour = fail
 }
+### Easter Egg!
+soundeffect = {
+	name = CABAL_event_robo
+	sounds = {
+		sound = event_robo_01
+		sound = event_robo_02
+		sound = event_robo_03
+		sound = sounds_of_extinction
+	}  
+	volume = 0.5
+	max_audible = 1
+	max_audible_behaviour = fail
+}
 
 		### Category
 category = {
@@ -556,6 +580,9 @@ category = {
 		nod_advisor_notification_spaceport_under_attack
 		nod_advisor_notification_species_modified
 		nod_advisor_notification_station_under_attack
+		nod_advisor_notification_enemy_fleet_approaching
+		nod_advisor_notification_debris_analysed
+		CABAL_event_robo
 	}
 }
 
