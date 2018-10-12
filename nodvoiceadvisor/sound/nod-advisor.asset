@@ -399,6 +399,7 @@ soundgroup =
 		advisor_notification_spaceport_under_attack_02 = "vo/nod-advisor/advisor_notification_spaceport_under_attack_02.wav"
 		advisor_notification_species_modified_02 = "vo/nod-advisor/advisor_notification_species_modified_02.wav"
 		advisor_notification_station_under_attack_02 = "vo/nod-advisor/advisor_notification_station_under_attack_02.wav"
+		advisor_notification_enemy_fleet_approaching_01 = "vo/nod-advisor/advisor_notification_enemy_fleet_approaching_01.wav"
 	}
 }	
 	
@@ -418,9 +419,9 @@ soundeffect = {
 	max_audible_behaviour = fail
 }
 soundeffect = {
-	name = advisor_notification_debri_analysed
+	name = advisor_notification_debris_analysed
 	sounds = {
-		sound = advisor_notification_debri_analysed_01
+		sound = advisor_notification_debris_analysed_01
 		sound = advisor_notification_debri_analysed_02
 	} 
 	volume = 2
